@@ -1,4 +1,10 @@
 @import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#000000] text-white;
+  }
+}
 /* 
 :root {
   --text: #6b6375;
