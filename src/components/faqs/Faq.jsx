@@ -8,7 +8,7 @@ const Faq = ({ title, description }) => {
     <div className="mx-auto flex-col py-[2px] px-2 sm:max-w-screen-md">
       <div 
         onClick={() => setShow(!show)} 
-        className='my-[2px] flex justify-between bg-[#303030] py-4 px-2 sm:py-5 sm:px-6'
+        className='my-[2px] flex justify-between bg-[#303030] py-4 px-[20px] sm:py-5'
       >
         <h1 className="text-lg sm:text-2xl">{title}</h1>
         {show ? (
