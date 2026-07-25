@@ -30,7 +30,7 @@ const Banner = () => {
           <button className='flex items-center rounded bg-white px-5 py-1 text-black transtion hover:bg-gray-200 md:px-7 md:py-2 text-lg'>
             <AiFillPlayCircle className='h-6 w-6'/>
           </button>
-          <button className='flex items-center rounded bg-[#5a7272] px-5 py-1 hover:bg-[#718a8a md:px-7 md:py-2 md:text-lg'>
+          <button className='flex items-center rounded bg-[#5a7272] px-5 py-1 hover:bg-[#718a8a md:px-7 md:py-2 md:text-l'>
             <AiOutlineInfoCircle className='h-6 w-6'/>
             More Info
           </button>
