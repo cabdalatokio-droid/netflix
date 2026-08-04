@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Row = () => {
+const Row = ({title}) => {
   return (
-    <div><h2></h2>
+    <div>
+      <h2>{title}</h2>
     </div>
   )
 }
