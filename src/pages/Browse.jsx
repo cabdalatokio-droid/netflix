@@ -8,7 +8,7 @@ const Browse = () => {
   return (
     <div className='relative h-screen lg:h-[140vh] bg-netflix-gradient'>
       <Header/>
-      <main className='relative pl-4 lg:pl-10 space-y-24'>
+      <main className='relative pl-4 lg:pl-10 space-y-10'>
         <Banner/>
         <Row title={"Trending Now"} url={requests.fetchTrending}/>
         <Row title={"Action Movies"} url={requests.fetchActionMovies}/>

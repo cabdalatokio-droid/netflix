@@ -23,7 +23,9 @@
     #141414 100%
   );
 }
-
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
 
 
 
